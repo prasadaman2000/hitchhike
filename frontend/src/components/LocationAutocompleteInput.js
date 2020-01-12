@@ -25,7 +25,7 @@ export default class LocationAutocompleteInput extends React.Component {
     var url =
       'https://maps.googleapis.com/maps/api/place/autocomplete/json?input=' +
       string +
-      '&key=AIzaSyCsd_xEVy2XRMjbGNb8_qICT9QIOq971Cg&sessiontoken=' +
+      '&key=REDACTED&sessiontoken=' +
       this.state.session;
 
     fetch(url)
@@ -92,7 +92,7 @@ export default class LocationAutocompleteInput extends React.Component {
                     var url =
                       'https://maps.googleapis.com/maps/api/place/details/json?place_id=' +
                       suggestion.place_id +
-                      '&fields=geometry,name&key=AIzaSyCsd_xEVy2XRMjbGNb8_qICT9QIOq971Cg&sessiontoken=' +
+                      '&fields=geometry,name&key=REDACTED&sessiontoken=' +
                       this.state.session;
 
                     fetch(url)
