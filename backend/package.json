@@ -14,7 +14,7 @@
     "express": "^4.17.1",
     "hashmap": "^2.4.0",
     "heap": "^0.2.6",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "rbush": "^3.0.1",
     "rbush-knn": "^2.1.0"
   },
