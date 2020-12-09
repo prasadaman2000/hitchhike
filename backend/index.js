@@ -33,7 +33,6 @@ const ex = {
 };
 
 app.get("/sendmeanemail", (reg, res) => {
-    console.log("fuck me in the ass");
     emailsSent++;
     ex.html = 'You have recieved <strong>' + emailsSent + '</strong> emails since the server was restarted!'
     sgMail.send(ex).then(() => {
